@@ -31,14 +31,14 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Team**
   - [Roque Fernandez Iglesias](https://github.com/roque-fernandez)
   - [Fco Alexis Morales Vallado](https://github.com/famvcucu)
-  - [Student 3](https://github.com/404)
-- **Project description**: Proyecto del grupo 27 
+  - [Jose Felipe Ramos](https://github.com/jfeliperamos)
+- **Project description**: Análisis económico mundial donde     observaremos las relaciones en las variaciones entre la inversión en Gasto Público y la Deuda Pública, así como descubrir como ámbos factores afectan al Salario Mínimo Interprofesional.
 - **Repository**: [gti-sos/SOS2122-27](https://github.com/gti-sos/SOS2122-27)
 - **URL**: [http://sos2122-27.herokuapp.com](http://sos2122-27.herokuapp.com)
 -  **APIs**:
     - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Roque Fernandez Iglesias](https://github.com/roque-fernandez))
     - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Fco Alexis Morales Vallado](https://github.com/famvcucu))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
+    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Jose Felipe Ramos](https://github.com/jfeliperamos))
 
 ## SOS2122-11
 
@@ -74,14 +74,14 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Team**
   - [María Lacañina Camacho](https://github.com/marialc0)
   - [Antonio Ruiz González](https://github.com/antruigon)
-  - [Student 3](https://github.com/404)
+  - [Javier Rodríguez Morales](https://github.com/javrodmor29)
 - **Project description**:Nuestro trabajo consiste en la producción de vehículos,las matriculaciones de vehículos nuevos y los vehículos en uso.  
 - **Repository**: [gti-sos/SOS2122-21](https://github.com/gti-sos/SOS2122-21)
 - **URL**: [http://sos2122-21.herokuapp.com](http://sos2122-21.herokuapp.com)
 -  **APIs**:
     - [https://sos2122-21.herokuapp.com/api/v1/productions-vehicles/docs](https://sos2122-21.herokuapp.com/api/v1/productions-vehicles/docs) (developed by [María Lacañina Camacho](https://github.com/marialc0))
-    - [https://sos2122-00.herokuapp.com/api/v1/in-use-vehicles/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Antonio Ruiz González](https://github.com/antruigon))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404)) 
+    - [https://sos2122-21.herokuapp.com/api/v1/in-use-vehicles/docs](https://sos2122-21.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Antonio Ruiz González](https://github.com/antruigon))
+    - [https://sos2122-21.herokuapp.com/api/v1/registrations-vehicles/docs](https://sos2122-21.herokuapp.com/api/v1/registrations-vehicles/docs) (developed by [Javier Rodríguez Morales](https://github.com/javrodmor29)) 
 
 
     ## SOS2122-13
@@ -103,21 +103,21 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 
 - **Team**
   - [Javier Hidalgo Garcia](https://github.com/javighidalgo01)
-  - [Student 2](https://github.com/404)
+  - [Rafael Molino Alvarez](https://github.com/rafamolino)
   - [Student 3](https://github.com/404)
-- **Project description**: Proyecto del grupo 32
+- **Project description**: Nuestras fuentes de información están orientadas a analizar la relación que existe entre el tiempo dedicado al trabajo doméstico, repetidores de primaria y la tasa de finalización de primaria globales.
 - **Repository**: [gti-sos/SOS2122-32](https://github.com/gti-sos/SOS2122-32)
 - **URL**: [http://sos2122-32.herokuapp.com](http://sos2122-32.herokuapp.com)
 -  **APIs**:
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Javier Hidalgo Garcia](https://github.com/404))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Student 2](https://github.com/404))
+    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
+    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Rafael Molino Alvarez](https://github.com/404))
     - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
 
 ## SOS2122-22
 
 - **Team**
   - [Jesús Vena Campos](https://github.com/jesvencam)
-  - [Belén Rodriguez Salazar ](https://github.com/beldruxs)
+  - [Belén Rodríguez Salazar ](https://github.com/beldruxs)
   - [Marcos Saa Martínez](https://github.com/MarcoSaa01)
 - **Project description**: Nuesto proyecto consta en analizar la relación existente entre las emisiones de CO2, la produccion de carbón y la balanza comercial entre diferentes paises en relacion a los ultimos años. 
 - **Repository**: [gti-sos/SOS2122-22](https://github.com/gti-sos/SOS2122-22.git)
@@ -125,7 +125,7 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 -  **APIs**:
     -  https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Student 1](https://github.com/jesvencam)
     - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Student 2](https://github.com/beldruxs)
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/MarcoSaa01)
+    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Marcos Saa Martínez](https://github.com/MarcoSaa01)
 
 
 ## SOS2122-10
@@ -162,7 +162,7 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Team**
   - [Ismael Mesa Zyout](https://github.com/IsmaelMesaZyout)
   - [Daniel Vega Vera](https://github.com/daniveg20)
-  - [Student 3](https://github.com/404)
+  - [José Ortiz Roldán](https://github.com/madgIitch)
 - **Project description**: Nuestras fuentes de información esta orientadas a analizar la relación que existe entre los matriculados el los diferentes niveles escolares, la tasa de alfabetización y proporción sin    educación, empleo ni capacitación en jóvenes
 - **Repository**: [gti-sos/SOS2122-31](https://github.com/gti-sos/SOS2122-31)
 - **URL**: [http://sos2122-31.herokuapp.com](http://sos2122-31.herokuapp.com)
@@ -207,14 +207,14 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 
 - **Team**
   - [Damián González Carrasco](https://github.com/Damiangc99)
-  - [Student 2](https://github.com/404)
+  - [Ángel Simón Mesa](https://github.com/AngelSM11)
   - [Student 3](https://github.com/404)
 - **Project description**: la relación que existe entre esperanza de vida,  el INB mundial y Comercio
 - **Repository**: [gti-sos/SOS2122-25](https://github.com/gti-sos/SOS2122-25)
 - **URL**: [http://sos2122-25.herokuapp.com](http://sos2122-25.herokuapp.com)
 -  **APIs**:
     - [https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Damián González Carrasco](https://github.com/Damiangc99))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Student 2](https://github.com/404))
+    - [https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Ángel Simón Mesa](https://github.com/AngelSM11))
     - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
     
 
@@ -223,15 +223,15 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 
 - **Team**
   - [Manuel Jesús González Bueno](https://github.com/manueljgb)
-  - [Student 2](https://github.com/404)
-  - [Student 3](https://github.com/404)
+  - [Pablo Galán Acedo](https://github.com/pabgalace)
+  - [Bruno Alvaro Rico Barrilero](https://github.com/brico1994)
 - **Project description**: Relación entre energía generada, gasto en defensa y ...
 - **Repository**: [gti-sos/SOS2122-26](https://github.com/gti-sos/SOS2122-26)
-- **URL**: [http://sos2122-00.herokuapp.com](http://sos2122-00.herokuapp.com)
+- **URL**: [http://sos2122-26.herokuapp.com](http://sos2122-26.herokuapp.com)
 -  **APIs**:
     - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Manuel Jesús González Bueno](https://github.com/404))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Student 2](https://github.com/404))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
+    - [https://sos2122-26.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-26.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Pablo Galán Acedo](https://github.com/pabgalace))
+    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Bruno Alvaro Rico Barrilero](https://github.com/brico1994))
 
 ## SOS2122-12
 
