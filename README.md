@@ -138,9 +138,9 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Repository**: [gti-sos/SOS2122-10](https://github.com/gti-sos/SOS2122-10)
 - **URL**: [http://sos2122-10.herokuapp.com](http://sos2122-10.herokuapp.com)
 -  **APIs**:
-    - [https://sos2122-10.herokuapp.com/api/v1/population-levels](https://sos2122-10.herokuapp.com/api/v1/population-levels) (developed by [Alejandro Molinos Eligio](https://github.com/AlejandroMolinosEligio))
-    - [https://sos2122-10.herokuapp.com/api/v1/energy-consumptions](https://sos2122-10.herokuapp.com/api/v1/energy-consumptions) (developed by [Gabriel López Bellido](https://github.com/gabriellb99))
-    - [https://sos2122-10.herokuapp.com/api/v1/internet-population](https://sos2122-10.herokuapp.com/api/v1/internet-population) (developed by [Germán Blanco Pérez Victoria](https://github.com/germanblanco12))
+    - [https://sos2122-10.herokuapp.com/api/v1/population-levels/docs](https://sos2122-10.herokuapp.com/api/v1/population-levels/docs) (developed by [Alejandro Molinos Eligio](https://github.com/AlejandroMolinosEligio))
+    - [https://sos2122-10.herokuapp.com/api/v1/energy-consumptions/docs](https://sos2122-10.herokuapp.com/api/v1/energy-consumptions/docs) (developed by [Gabriel López Bellido](https://github.com/gabriellb99))
+    - [https://sos2122-10.herokuapp.com/api/v1/internet-population/docs](https://sos2122-10.herokuapp.com/api/v1/internet-population/docs) (developed by [Germán Blanco Pérez Victoria](https://github.com/germanblanco12))
 
 
     ## SOS2122-24
