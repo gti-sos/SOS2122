@@ -47,12 +47,12 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
   - [David Sousa Gonzalez](https://github.com/dasougon7)
   - [Ignacion Mauri Caceres](https://github.com/404)
 - **Project description**: Nuestras fuentes de información esta orientadas a analizar la relación que existe entre el nivel de desigualdad economica, el PIB y el numero de parados a nivel mundial
-- **Repository**: [gti-sos/SOS2122-11](https://github.com/gti-sos/gti-sos-SOS2122-11)
-- **URL**: [http://sos2122-11.herokuapp.com](http://sos2122-1.herokuapp.com)
+- **Repository**: [gti-sos/SOS2122-11](https://github.com/gti-sos/SOS2122-11)
+- **URL**: [http://sos2122-11.herokuapp.com](http://sos2122-11.herokuapp.com)
 -  **APIs**:
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Roque Fernandez Iglesias](https://github.com/roque-fernandez))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Fco Alexis Morales Vallado](https://github.com/famvcucu))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Ignacio Mauri Caceres - ](https://github.com/nachomc01))
+    - [https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Roque Fernandez Iglesias](https://github.com/roque-fernandez))
+    - [https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [David Sousa González](https://github.com/dasougon7))
+    - [https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-11.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Ignacio Mauri Caceres - ](https://github.com/nachomc01))
 
 ## SOS2122-23
 
@@ -104,13 +104,13 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Team**
   - [Javier Hidalgo Garcia](https://github.com/javighidalgo01)
   - [Rafael Molino Alvarez](https://github.com/rafamolino)
-  - [Student 3](https://github.com/404)
+  - [Sergio Jesus Garcia Blanco](https://github.com/404)
 - **Project description**: Nuestras fuentes de información están orientadas a analizar la relación que existe entre el tiempo dedicado al trabajo doméstico, repetidores de primaria y la tasa de finalización de primaria globales.
 - **Repository**: [gti-sos/SOS2122-32](https://github.com/gti-sos/SOS2122-32)
 - **URL**: [http://sos2122-32.herokuapp.com](http://sos2122-32.herokuapp.com)
 -  **APIs**:
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Rafael Molino Alvarez](https://github.com/404))
+    - [https://sos2122-32.herokuapp.com/api/v1/houseworkStats](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
+    - [https://sos2122-32.herokuapp.com/api/v1/repeatersStats](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Rafael Molino Alvarez](https://github.com/404))
     - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
 
 # SOS2122-22
@@ -134,13 +134,13 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
   - [Alejandro Molinos Eligio](https://github.com/AlejandroMolinosEligio)
   - [Gabriel López Bellido](https://github.com/gabriellb99)
   - [Germán Blanco Pérez Victoria](https://github.com/germanblanco12)
-- **Project description**: Nuestro trabajo consiste en el estudio de la población en la actualidad, tomando como datos la tasa de fallecimiento, esperanza de vida y tasa de natalidad.
+- **Project description**: Nuestro trabajo consiste en el estudio de la población en la actualidad, estudios sobre el consumo de electricidad y la relación entre usuarios en internet y la población urbana.
 - **Repository**: [gti-sos/SOS2122-10](https://github.com/gti-sos/SOS2122-10)
 - **URL**: [http://sos2122-10.herokuapp.com](http://sos2122-10.herokuapp.com)
 -  **APIs**:
-    - [https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Alejandro Molinos Eligio](https://github.com/AlejandroMolinosEligio))
-    - [https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Gabriel López Bellido](https://github.com/gabriellb99))
-    - [https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-10.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Germán Blanco Pérez Victoria](https://github.com/germanblanco12))
+    - [https://sos2122-10.herokuapp.com/api/v1/population-levels/docs](https://sos2122-10.herokuapp.com/api/v1/population-levels/docs) (developed by [Alejandro Molinos Eligio](https://github.com/AlejandroMolinosEligio))
+    - [https://sos2122-10.herokuapp.com/api/v1/energy-consumptions/docs](https://sos2122-10.herokuapp.com/api/v1/energy-consumptions/docs) (developed by [Gabriel López Bellido](https://github.com/gabriellb99))
+    - [https://sos2122-10.herokuapp.com/api/v1/internet-population/docs](https://sos2122-10.herokuapp.com/api/v1/internet-population/docs) (developed by [Germán Blanco Pérez Victoria](https://github.com/germanblanco12))
 
 
     ## SOS2122-24
@@ -186,7 +186,7 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
     - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-20.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Javier Lara Parrilla](https://github.com/javierlara47))
 
 
-    ## SOS2122-30
+## SOS2122-30
 
 - **Team**
   - [Sergio Velázquez García](https://github.com/Servelgar)
@@ -194,11 +194,11 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
   - [Jaime	Quintero	Sicre](https://github.com/Jaiquisic23)
 - **Project description**: Análisis de la relación que existe entre las fuentes de contaminación de diferentes tecnologías de última generación
 - **Repository**: [gti-sos/SOS2122-30](https://github.com/gti-sos/SOS2122-30)
-- **URL**: [http://sos2122-00.herokuapp.com](http://sos2122-00.herokuapp.com)
+- **URL**: [http://sos2122-30.herokuapp.com](http://sos2122-30.herokuapp.com)
 -  **APIs**:
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-20.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Sergio Velázquez García](https://github.com/Servelgar))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-20.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Javier	Alonso	Yáñez](https://github.com/alonyanez))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-20.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Jaime	Quintero	Sicre](https://github.com/Jaiquisic23))
+    - [https://sos2122-30.herokuapp.com/api/v1/cryptocoin_stats](https://sos2122-30.herokuapp.com/api/v1/cryptocoin_stats) (developed by [Sergio Velázquez García](https://github.com/Servelgar))
+    - [https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats](https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats) (developed by [Javier	Alonso	Yáñez](https://github.com/alonyanez))
+    - [https://sos2122-30.herokuapp.com/api/v1/technology_devices_stats](https://sos2122-30.herokuapp.com/api/v1/technology_devices_stats) (developed by [Jaime	Quintero	Sicre](https://github.com/Jaiquisic23))
 
 
 
@@ -208,14 +208,14 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Team**
   - [Damián González Carrasco](https://github.com/Damiangc99)
   - [Ángel Simón Mesa](https://github.com/AngelSM11)
-  - [Student 3](https://github.com/404)
+  - [Adrián Pérez Gómez](https://github.com/adriperez01)
 - **Project description**: la relación que existe entre esperanza de vida,  el INB mundial y Comercio
 - **Repository**: [gti-sos/SOS2122-25](https://github.com/gti-sos/SOS2122-25)
 - **URL**: [http://sos2122-25.herokuapp.com](http://sos2122-25.herokuapp.com)
 -  **APIs**:
     - [https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Damián González Carrasco](https://github.com/Damiangc99))
     - [https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-25.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Ángel Simón Mesa](https://github.com/AngelSM11))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
+    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Adrián Pérez Gómez](https://github.com/adriperez01))
     
 
 
