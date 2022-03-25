@@ -109,8 +109,8 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Repository**: [gti-sos/SOS2122-32](https://github.com/gti-sos/SOS2122-32)
 - **URL**: [http://sos2122-32.herokuapp.com](http://sos2122-32.herokuapp.com)
 -  **APIs**:
-    - [https://sos2122-32.herokuapp.com/api/v1/houseworkStats](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
-    - [https://sos2122-32.herokuapp.com/api/v1/repeatersStats](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Rafael Molino Alvarez](https://github.com/404))
+    - [http://sos2122-32.herokuapp.com/api/v1/houseworkStats](http://sos2122-32.herokuapp.com/api/v1/houseworkStats) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
+    - [http://sos2122-32.herokuapp.com/api/v1/repeatersStats](http://sos2122-32.herokuapp.com/api/v1/repeatersStats) (developed by [Rafael Molino Alvarez](https://github.com/404))
     - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
 
 ## SOS2122-22
