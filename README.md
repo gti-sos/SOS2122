@@ -153,8 +153,8 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Repository**: [gti-sos/SOS2122-24](https://github.com/gti-sos/SOS2122-24.git)
 - **URL**: [http://sos2122-24.herokuapp.com](http://sos2122-24.herokuapp.com)
 -  **APIs**:
-    - [https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Raul Gomez Morales](https://github.com/Rgm13))
-    - [https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Laura Martinez Sanchez](https://github.com/Lauramartinezsanchez))
+    - [https://sos2122-24.herokuapp.com/api/v1/cancerdeaths-stats/docs](https://documenter.getpostman.com/view/19574593/UVyn1JRE) (developed by [Raul Gomez Morales](https://github.com/Rgm13))
+    - [https://sos2122-24.herokuapp.com/api/v1/pneumonia-stats/docs](https://documenter.getpostman.com/view/19574612/UVyn1JRG) (developed by [Laura Martinez Sanchez](https://github.com/Lauramartinezsanchez))
     - [https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-24.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Alicia Campos Castello](https://github.com/AliciaCamposCastello))
 
     ## SOS2122-31
