@@ -225,7 +225,7 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
   - [Manuel Jesús González Bueno](https://github.com/manueljgb)
   - [Pablo Galán Acedo](https://github.com/pabgalace)
   - [Bruno Alvaro Rico Barrilero](https://github.com/brico1994)
-- **Project description**: Relación entre energía generada, gasto en defensa y ...
+- **Project description**: Estudio y análisis de la relación entre el gasto público en defensa, generación energética e indice de desarrollo.
 - **Repository**: [gti-sos/SOS2122-26](https://github.com/gti-sos/SOS2122-26)
 - **URL**: [http://sos2122-26.herokuapp.com](http://sos2122-26.herokuapp.com)
 -  **APIs**:
