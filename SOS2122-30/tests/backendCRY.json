@@ -1,0 +1,777 @@
+{
+	"info": {
+		"_postman_id": "0ca7537f-7f98-4d41-b6c2-e5aaa048daee",
+		"name": "SOS2122-30-CC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get / crypto",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response is an array\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(Array.isArray(jsonData)).to.eql(true);\r",
+							"});\r",
+							"pm.test(\"Response has data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.length).to.be.at.least(1);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"country\": \"EEUU\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 3894.83,\r\n        \"ccdemand\": 14.92,\r\n        \"ccmining\": 35.40\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALBANIA  2021 FAILED 404",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404. Not Found.\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/albania/2020",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"albania",
+						"2020"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ALB2021 CRYPTO",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful POST request. Status code 201.\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"albania\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 383.8,\r\n        \"ccdemand\": 3.68,\r\n        \"ccmining\": 0.41\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALBANIA  2021",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/albania/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"albania",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE ALBANIA  2021",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/albania/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"albania",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALBANIA  2021 FAILED 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404. NOT FOUND\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/albania/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"albania",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST EEUU 2021 FAILED 405",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 405. Unable to post\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT /crypto FAILED 405",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 405\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT EEUU 2021 ccelectr",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"eeuu\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 4000.0,\r\n        \"ccdemand\": 9.68,\r\n        \"ccmining\": 10.41\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET EEUU 2021 new-ccelectr",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT EEUU 2021 FAILED 400",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"eeuu\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 4000.0,\r\n        \"ccdemand\": 9.68\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 404 CHILE",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"eeuu\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 4000.0,\r\n        \"ccdemand\": 9.68,\r\n        \"ccmining\": 10.41\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/chile/2021",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"chile",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 404 EEUU 2022",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"eeuu\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 4000.0,\r\n        \"ccdemand\": 9.68,\r\n        \"ccmining\": 10.41\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu/2022",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu",
+						"2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST FAILED 409",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 409\", function () {\r",
+							"    pm.response.to.have.status(409);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"country\": \"eeuu\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 383.8,\r\n        \"ccdemand\": 3.68,\r\n        \"ccmining\": 0.41\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE ALL RESOURCES",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET NULL",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response is an array\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(Array.isArray(jsonData)).to.eql(true);\r",
+							"});\r",
+							"pm.test(\"Response has no data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.length).to.be.at.most(0);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"country\": \"EEUU\",\r\n        \"year\": 2021,\r\n        \"ccelectr\": 3894.83,\r\n        \"ccdemand\": 14.92,\r\n        \"ccmining\": 35.40\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET loadInitialData",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response is an array\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(Array.isArray(jsonData)).to.eql(true);\r",
+							"});\r",
+							"pm.test(\"Response has data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.length).to.be.at.least(1);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/loadInitialData",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"loadInitialData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 ALL EEUU",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT /EEUU 405",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 405\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{HEROKU}}/api/v1/cryptocoin-stats/eeuu",
+					"host": [
+						"{{HEROKU}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cryptocoin-stats",
+						"eeuu"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "SERVER",
+			"value": "http://localhost:8080"
+		},
+		{
+			"key": "HEROKU",
+			"value": "https://sos2122-30.herokuapp.com",
+			"type": "string"
+		}
+	]
+}

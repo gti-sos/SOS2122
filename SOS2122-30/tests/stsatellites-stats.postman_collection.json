@@ -1,0 +1,423 @@
+{
+	"info": {
+		"_postman_id": "2bce4961-c3f0-471f-86fb-99e1c13b1a69",
+		"name": "stsatellites-stats",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Conjunto",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Elemento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2021/third",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2021",
+						"third"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Error 404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2022/third",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2022",
+						"third"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Elemento - Error 405",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"eeuu\",\r\n\"year\": 2022,\r\n\"quarter\": \"first\",\r\n\"st-launched\": 2000,\r\n\"st-orbit\": 1550,\r\n\"st-destroyed\": 163\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2021/second",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2021",
+						"second"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Conjunto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2022,\r\n    \"quarter\": \"first\",\r\n    \"stlaunched\": 2000,\r\n    \"storbit\": 1550,\r\n    \"stdestroyed\": 163\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Error 409",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2021,\r\n    \"quarter\": \"first\",\r\n    \"st-launched\": 2000,\r\n    \"st-orbit\": 1550,\r\n    \"st-destroyed\": 163\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Error 400",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2021,\r\n    \"quarter\": \"first\",\r\n    \"st-launched\": 2000,\r\n    \"st-destroyed\": 163\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Elemento",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2021,\r\n    \"quarter\": \"third\",\r\n    \"stlaunched\": 1929,\r\n    \"storbit\": 153,\r\n    \"stdestroyed\": 145\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2021/third",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2021",
+						"third"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Conjunto - Error 405",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"eeuu\",\r\n\"year\": 2022,\r\n\"quarter\": \"first\",\r\n\"st-launched\": 2000,\r\n\"st-orbit\": 1550,\r\n\"st-destroyed\": 163\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Error 404",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2021,\r\n    \"quarter\": \"third\",\r\n    \"stlaunched\": 1929,\r\n    \"storbit\": 1503,\r\n    \"stdestroyed\": 145\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2021",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Elemento",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"eeuu\",\r\n    \"year\": 2020,\r\n    \"quarter\": \"third\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2020/third",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2020",
+						"third"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Conjunto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Error 404",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/eeuu/2025/third",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"eeuu",
+						"2025",
+						"third"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Load Initial Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sos2122-30.herokuapp.com/api/v1/stsatellites-stats/loadInitialData",
+					"protocol": "https",
+					"host": [
+						"sos2122-30",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"stsatellites-stats",
+						"loadInitialData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

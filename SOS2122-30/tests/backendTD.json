@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "e19b0722-42e8-4540-bf23-c41b87d61187",
+		"name": "SOS2122-30",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ELEMENTO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/Spain",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"Spain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/Bulgary",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"Bulgary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Elemento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"Netherland\",\r\n\"year\": 2019,\r\n\"tdwasted\": 6918,\r\n\"mpdisuse\": 220,\r\n\"mpreused\": 74,\r\n\"jejd\":56\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST EEUU 409",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"EEUU\",\r\n\"year\": 2019,\r\n\"tdwasted\": 6918,\r\n\"mpdisuse\": 220,\r\n\"mpreused\": 74\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Elemento ERROR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"EEUU\",\r\n\"year\": 2019,\r\n\"tdwasted\": 6918,\r\n\"mpdisuse\": 220,\r\n\"mpreused\": 74\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/EEUU",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"EEUU"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 400",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/Bulgary/year",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"Bulgary",
+						"year"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Elemento",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/EEUU/year",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"EEUU",
+						"year"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Netherland",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats/Netherland",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats",
+						"Netherland"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"country\": \"Bulgary\",\r\n\"year\": 2019,\r\n\"tdwasted\": 2129,\r\n\"mpdisuse\": 66.4,\r\n\"mpreused\": 76\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{SERVER}}/api/v1/technology_devices_stats",
+					"host": [
+						"{{SERVER}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"technology_devices_stats"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "SERVER",
+			"value": "https://sos2122-30.herokuapp.com",
+			"type": "string"
+		}
+	]
+}
