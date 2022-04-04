@@ -111,7 +111,7 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 -  **APIs**:
     - [http://sos2122-32.herokuapp.com/api/v1/housework-stats/docs](http://sos2122-32.herokuapp.com/api/v1/housework-stats/docs) (developed by [Javier Hidalgo Garcia](https://github.com/javighidalgo01))
     - [http://sos2122-32.herokuapp.com/api/v1/repeaters-stats/docs](http://sos2122-32.herokuapp.com/api/v1/repeaters-stats/docs) (developed by [Rafael Molino Alvarez](https://github.com/404))
-    - [https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2021-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
+    - [https://sos2122-32.herokuapp.com/api/v1/ending-stats/docs](https://sos2122-32.herokuapp.com/api/v1/ending-stats/docs) (developed by [Sergio Jesús García Blanco](https://github.com/sergarbla))
 
 ## SOS2122-22
 
