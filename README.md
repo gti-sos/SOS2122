@@ -167,9 +167,9 @@ List of projects registered in the course of **Service Oriented Systems** (2021/
 - **Repository**: [gti-sos/SOS2122-31](https://github.com/gti-sos/SOS2122-31)
 - **URL**: [http://sos2122-31.herokuapp.com](http://sos2122-31.herokuapp.com)
 -  **APIs**:
-    - [https://sos2122-31.herokuapp.com/api/v1/my-awesome-resource-1/docs](https://sos2122-31.herokuapp.com/api/v1/my-awesome-resource-1/docs) (developed by [Ismael Mesa Zyout](https://github.com/IsmaelMesaZyout))
-    - [https://sos2122-31.herokuapp.com/api/v1/my-awesome-resource-2/docs](https://sos2122-31.herokuapp.com/api/v1/my-awesome-resource-2/docs) (developed by [Daniel Vega Vera](https://github.com/daniveg20))
-    - [https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs](https://sos2122-00.herokuapp.com/api/v1/my-awesome-resource-3/docs) (developed by [Student 3](https://github.com/404))
+    - [https://sos2122-31.herokuapp.com/api/v1/registration-stats/docs](https://sos2122-31.herokuapp.com/api/v1/registration-stats/docs) (developed by [Ismael Mesa Zyout](https://github.com/IsmaelMesaZyout))
+    - [https://sos2122-31.herokuapp.com/api/v1/alphabetization-stats/docs](https://sos2122-31.herokuapp.com/api/v1/alphabetization-stats/docs) (developed by [Daniel Vega Vera](https://github.com/daniveg20))
+    - [https://sos2122-31.herokuapp.com/api/v1/proportion-stats](https://sos2122-31.herokuapp.com/api/v1/proportion-stats/docs) (developed by [José Ortiz Roldán](https://github.com/madgIitch))
 
     ## SOS2122-20
 
